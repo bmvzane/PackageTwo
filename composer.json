@@ -1,0 +1,13 @@
+{
+    "name": "testrepository/packagetwo",
+    "description": "Package Two",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "TestRepository\\PackageTwo": ""
+        }
+    },
+    "minimum-stability": "dev"
+}
